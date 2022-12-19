@@ -1,0 +1,129 @@
+:root {
+  --main-color: #6D9BC3;
+  --main-second-color: #BAD0E5;
+  --main-title: rgb(228, 241, 254);
+  --main-contact: rgb(36, 37, 42);
+}
+
+body {
+  background-color: var(--main-title);
+  color: var(--main-contact);
+  font-size: 121%;
+}
+
+.badge-primary{
+  background-color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+  color: var(--main-title) !important;
+  font-variant: small-caps;
+}
+
+.name-header{
+  padding:30px 100px 30px 100px;
+  background-color: var(--main-color);
+}
+.second-name-header{
+  padding:10px 30px 10px 30px;
+  background-color: var(--main-color);
+  text-align: center;
+}
+
+.degree-time {
+  text-align: left;
+  font-variant: small-caps;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.degree-title {
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+.category-banner {
+  background-color:  var(--main-title);
+  padding-right: 5px;
+  text-align: left;
+  font-variant: small-caps;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.category-banner-underline {
+  background-color: var(--main-color);
+  height: 6px;
+}
+
+.skills{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size:30px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-right: 4px;
+}
+
+.main-name {
+  font-family: 'Coustard', serif;
+  font-size: 50px;
+}
+
+.main-position {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: var(--main-title);
+}
+
+.main-info {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.skills-box {
+  padding: 10px;
+}
+
+.skills-box div{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.hobbies-box {
+  text-align: left;
+}
+
+.experience-megabox {
+  padding: 0px 15px 15px 0px;
+  background-color: white;
+  margin-left: 30px;
+  border-style: solid;
+  border-top-width: 0px;
+  border-right-width: 6px;
+  border-bottom-width: 6px;
+  border-left-width: 6px;
+  border-color: var(--main-color);
+}
+
+.margin-one {
+  max-width: 25px!important;
+}
+.margin-two {
+  max-width: 65px!important;
+}
+
+.company-banner{
+  font-weight: bold;
+  font-size:18px;
+}
+
+.education-banner{
+  font-weight: bold;
+  font-size:18px
+}
